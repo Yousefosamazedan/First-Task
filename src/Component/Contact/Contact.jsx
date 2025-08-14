@@ -59,6 +59,7 @@ export default function Contact() {
             userPassword:
           </label>
         </div>
+        <button className=' bg-green/70 py-2 px-4 cursor-pointer rounded-md ml-auto block hover:bg-green hover:text-white transition-colors duration-500'>Submit</button>
       </form>
     </div>
 
