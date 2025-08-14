@@ -1,0 +1,22 @@
+.Header-Light::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 5px;
+    left: 15%;
+    bottom: 0;
+    background-color: #fff;
+}
+.Header-Light::after {
+    content: "\f005";
+    font-family: 'font Awesome 5 free';
+    font-weight: 900;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 6px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1ABC9C;
+}
