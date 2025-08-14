@@ -1,4 +1,4 @@
-import "./MainHeader.css"
+import "./mainHeader.css"
 
 export default function MainHeader({children}) {
   return <>
